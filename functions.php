@@ -12,7 +12,7 @@ function digitalschool_setup(){
 add_action('after_setup_theme','digitalschool_setup');
 
 function ds_js(){
-    wp_enqueue_script('ds-js',get_theme_file_uri('js/main.js'),array(),1.0,true)
+    wp_enqueue_script('ds-js',get_theme_file_uri('js/main.js'),array(),1.0,true);
 }
 add_action('wp_enqueue_scripts','ds_js');
 
