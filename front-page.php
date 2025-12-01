@@ -1,71 +1,143 @@
-<?php get_header(); ?>
+<?php  get_header(); ?>
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Projekt</title>
 </head>
 <body>
     <main>
-        <section class="hero">
-            <img src="<?php echo esc_url(get_theme_file_uri('images/banner.png')) ?>" alt="site banner">
-        </section>
+    <section class="klasa1">
+        <img src="<?php echo esc_url(get_theme_file_uri('images/plane2.png')); ?>" 
+             alt="plane1">
+    </section>
 
-        <section class="features">
-            
-            <br>
+    
+    <section class="klasa2">
+        <h2>Llojet e avioneve</h2>
+        <p>Ka shum lloje te avioneve disa te perfshir jane:</p>
+    </section>
 
-            <h2 id="heading">Why choose us?</h2>
-            
-            <br>
+   
+    <section class="klasa3">
+        <div class="plane-box">
+            <h3>Airbus A320</h3>
+            <p>Avion i kategorisë narrow-body shumë i përdorur në botë.</p>
+        </div>
 
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/projects.png')) ?>" alt="handson projects">
-                <span>Projects based learning</span>
-            </li>
+        <div class="plane-box">
+            <h3>Boeing 777</h3>
+            <p>Nga avionët më të mëdhenj me dy motorë për fluturime të gjata.</p>
+        </div>
 
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/ins.png')) ?>" alt=" projects">
-                <span>Instructors who inspire</span>
-            </li>
+        <div class="plane-box">
+            <h3>Cessna 172</h3>
+            <p>Avion i lehtë, perfekt për trajnime.</p>
+        </div>
 
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/digital.png')) ?>" alt=" projects">
-                <span>Feature ready digital skills</span>
-            </li>
+        <div class="plane-box">
+            <h3>Concorde</h3>
+            <p>Avion supersonik i përdorur për fluturime komerciale.</p>
+        </div>
 
-            <li>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/online.png')) ?>" alt=" projects">
-                <span>Online or in person</span>
-            </li>
+        <div class="plane-box">
+                <h3>Lockheed SR-71 Blackbird</h3>
+                <p>Avion zbulimi me shpejtësi të lartë dhe altitudë të madhe.</p>
+        </div>        
 
-        </section>
+        <div class="plane-box">
+            <h3>Antonov An-225 Mriya</h3>
+            <p>Avioni më i madh transportues në botë.</p>
+        </div>    
+    </section>
 
-            <br>
+    <section class="klasa4">
+    <h2>Fakte për avionet</h2>
 
-        <section class="section-pad">
-            <h2 id="curricula-heading">Curriculum by age</h2>
-            <ul class="curricula-grid">
+    <div class="fakte-container">
 
-            <!-- 8-11 -->
-             <li class="card">
-                <h3 class="card-title">
-                    <span class="label">Curriculum from the group age</span>
-                    <span class="age">8-11</span>
-                </h3>
-                <ul class="class-points">
-                    <li><strong>Content:</strong>Learning the logic</li>
-                    <li><strong>Period:</strong>September - July</li>
-                    <li><strong>Intensity:</strong>3 times a week</li>
-                    <li><strong>Method:</strong>Online or physically</li>
-                </ul>
+        <div class="fact-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/speed.png')); ?>" alt="speed icon">
+            <h3>Shpejtësi Marramendëse</h3>
+            <p>Avioni më i shpejtë në botë, SR-71 Blackbird, arrin mbi 3,540 km/h.</p>
+        </div>
 
-             </li>
+        <div class="fact-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/height.png')); ?>" alt="height icon">
+            <h3>Lartësi Mbresëlënëse</h3>
+            <p>Avionët komercialë fluturojnë zakonisht në lartësi rreth 10,600 metra.</p>
+        </div>
 
-            </ul>
-        </section>    
+        <div class="fact-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/range.png')); ?>" alt="range icon">
+            <h3>Fluturime të Gjatë</h3>
+            <p>Airbus A350 mund të fluturojë deri në 18 orë pa ndalim.</p>
+        </div>
+
+    </div>
+</section>
+<section class="klasa5">
+    <h2>Modelet e mjohura</h2>
+
+    <div class="popular-planes">
+
+        <div class="popular-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/boeing.png')); ?>" alt="Boeing 737">
+            <h3>Boeing 737</h3>
+            <p>Një nga avionët më të përdorur komercial në botë.</p>
+        </div>
+
+        <div class="popular-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/airbus.png')); ?>" alt="Airbus A380">
+            <h3>Airbus A380</h3>
+            <p>Avioni më i madh pasagjerësh në botë me dy kate.</p>
+        </div>
+
+        <div class="popular-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/f-16.png')); ?>" alt="F-16">
+            <h3>F-16 Falcon</h3>
+            <p>Një luftëtar i avancuar dhe shumë i njohur në forcat ajrore.</p>
+        </div>
+
+    </div>
+
+</section>
+
     </main>
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php get_footer(); ?>
