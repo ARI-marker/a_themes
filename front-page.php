@@ -104,6 +104,81 @@
     </div>
 
 </section>
+<section class="klasa6">
+    <h2>Teknologjitë Moderne në Aviacion</h2>
+
+    <div class="tech-container">
+
+        <div class="tech-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/flybywire.png')); ?>" alt="Fly-by-wire">
+            <h3>Fly-By-Wire</h3>
+            <p>Sistemi elektronik që zëvendëson kabllot mekanike, duke rritur sigurinë dhe saktësinë.</p>
+        </div>
+
+        <div class="tech-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/composite.jpg')); ?>" alt="Composite Materials">
+            <h3>Materialet Kompozite</h3>
+            <p>Fibra karboni dhe materiale ultra-të lehta që ulin peshën dhe rrisin efikasitetin.</p>
+        </div>
+
+        <div class="tech-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/turbofan.jpg')); ?>" alt="Turbofan Engine">
+            <h3>Motorët Turbofan</h3>
+            <p>Motorët modernë janë më të qetë, më të fuqishëm dhe përdorin shumë më pak karburant.</p>
+        </div>
+
+        <div class="tech-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/autopilot.png')); ?>" alt="Autopilot">
+            <h3>Autopiloti Inteligjent</h3>
+            <p>Kompiuterë të avancuar që asistojnë pilotët gjatë gjithë fluturimit.</p>
+        </div>
+
+    </div>
+</section>
+<section class="klasa7">
+    <h2>Sistemet e Sigurisë së Avionëve</h2>
+
+    <div class="safety-container">
+
+        <div class="safety-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/pressurization.png')); ?>" alt="Pressurization">
+            <h3>Pressurizimi i Kabinës</h3>
+            <p>Mbajtja e presionit të qëndrueshëm siguron që pasagjerët të marrin oksigjen të mjaftueshëm gjatë fluturimeve në lartësi të mëdha.</p>
+        </div>
+
+        <div class="safety-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/oxygen.jpg')); ?>" alt="Oxygen System">
+            <h3>Sistemet e Oksigjenit</h3>
+            <p>Maskat e oksigjenit aktivizohen automatikisht në rast të humbjes së presionit, duke siguruar frymëmarrje të sigurt.</p>
+        </div>
+
+        <div class="safety-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/blackbox.jpeg')); ?>" alt="Black Box">
+            <h3>Black Box</h3>
+            <p>Regjistruesit e të dhënave dhe audios ndihmojnë në analizimin e çdo incidenti për të përmirësuar sigurinë globale.</p>
+        </div>
+
+        <div class="safety-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/antiice.jpg')); ?>" alt="Anti-Ice System">
+            <h3>Sistemet Anti-Icing</h3>
+            <p>Mbrojnë avionin nga ngrirja në krahë dhe motorë, duke rritur sigurinë gjatë fluturimit në temperatura të ulëta.</p>
+        </div>
+
+        <div class="safety-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/fireextinguisher.jpg')); ?>" alt="Fire Extinguisher">
+            <h3>Sistemet e Shuarjes së Zjarrit</h3>
+            <p>Avionët kanë sisteme automatike dhe manuale për shuarjen e zjarreve në motorë dhe kabinë.</p>
+        </div>
+
+        <div class="safety-box">
+            <img src="<?php echo esc_url(get_theme_file_uri('images/emergency_exit.jpg')); ?>" alt="Emergency Exits">
+            <h3>Daljet e Emergjencës</h3>
+            <p>Janë të shënuara qartë dhe lehtësisht të aksesueshme për evakuim të shpejtë në rast emergjence.</p>
+        </div>
+
+    </div>
+</section>
+
 
     </main>
 

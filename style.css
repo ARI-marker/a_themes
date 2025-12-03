@@ -616,78 +616,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
 /* fronti i ri */
 
 
-
-
-
-/* .klasa1 {
-    width: 100%;
-    height: auto;
-    text-align: center;
-    background: black;
-    padding: 20px 0;
-}
-
-.klasa1 img {
-    width: 100%;
-    max-width: 1100px;
-    border-radius: 8px;
-}
-
-
-.klasa2 {
-    max-width: 1000px;
-    margin: 50px auto;
-    text-align: center;
-    padding: 20px;
-}
-
-.klasa2 h2 {
-    font-size: 32px;
-    color: #003f7f;
-    margin-bottom: 15px;
-}
-
-.klasa2 p {
-    font-size: 18px;
-    color: #444;
-}
-
-.klasa3 {
-    background-color: #071a46;
-    max-width: 1100px;
-    margin: 50px auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    padding: 20px;
-}
-
-.plane-box {
-    background: #f9faff;
-    padding: 25px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    transition: 0.2s;
-}
-
-.plane-box:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
-}
-
-.plane-box h3 {
-    font-size: 22px;
-    margin-bottom: 10px;
-    color: #003f7f;
-}
-
-.plane-box p {
-    color: #555;
-} */
-
-
-
-
 .klasa1 {
     width: 100%;
     padding: 00;
@@ -800,22 +728,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     line-height: 1.6;
 }
 
-@media (max-width: 900px) {
-    .klasa3 {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .klasa3 {
-        grid-template-columns: 1fr;
-    }
-
-    .klasa2 h2 {
-        font-size: 30px;
-    }
-}
-
 .klasa4 {
     max-width: 1100px;
     margin: 70px auto;
@@ -868,17 +780,6 @@ Use it to make something cool, have fun, and share what you've learned with othe
     font-size: 16px;
 }
 
-@media (max-width: 900px) {
-    .facts-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 600px) {
-    .facts-container {
-        grid-template-columns: 1fr;
-    }
-}
 .klasa5 {
     max-width: 1200px;
     margin: 80px auto;
@@ -932,16 +833,142 @@ Use it to make something cool, have fun, and share what you've learned with othe
     margin-bottom: 15px;
 }
 
-@media(max-width: 900px) {
-    .popular-planes {
-        grid-template-columns: repeat(2, 1fr);
-    }
+
+.klasa6 {
+    max-width: 1200px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 20px;
 }
 
-@media(max-width: 600px) {
-    .popular-planes {
-        grid-template-columns: 1fr;
-    }
+.klasa6 h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    background: linear-gradient(90deg, #0049a8, #3b73ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
+.tech-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+    padding: 10px;
+}
+
+.tech-box {
+    background: #ffffff;
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0 6px 22px rgba(0,0,0,0.12);
+    border-top: 4px solid #3b73ff;
+    transition: 0.3s ease;
+}
+
+.tech-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 30px rgba(0,0,0,0.18);
+}
+
+.tech-box img {
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.tech-box h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #003f8a;
+}
+
+.tech-box p {
+    font-size: 15px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.klasa7 {
+    max-width: 1200px;
+    margin: 80px auto;
+    padding: 20px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+}
+
+.klasa7 h2 {
+    font-size: 34px;
+    margin-bottom: 50px;
+    color: #003f8a;
+    letter-spacing: 1px;
+}
+
+.safety-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.safety-box {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 12px 25px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.safety-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
+
+.safety-box img {
+    width: 60px;
+    margin-bottom: 20px;
+}
+
+.safety-box h3 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    color: #003f8a;
+}
+
+.safety-box p {
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.safety-box:nth-child(1) {
+    grid-row: span 2;
+}
+
+.safety-box:nth-child(2) {
+    grid-column: span 2;
+}
+
+.safety-box:nth-child(3) {
+    grid-row: span 1;
+}
+
+.safety-box:nth-child(4) {
+    grid-column: span 1;
+}
+
+.safety-box:nth-child(5) {
+    grid-column: span 2;
+}
+
+.safety-box:nth-child(6) {
+    grid-row: span 2;
+}
+
+
+
+
+
+
 
 
