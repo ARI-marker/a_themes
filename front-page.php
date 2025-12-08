@@ -10,7 +10,7 @@
 <body>
     <main>
     <section class="klasa1">
-        <img src="<?php echo esc_url(get_theme_file_uri('images/plane2.png')); ?>" 
+        <img src="<?php echo esc_url(get_theme_file_uri('images/plane2.1.png')); ?>" 
              alt="plane1">
     </section>
 
