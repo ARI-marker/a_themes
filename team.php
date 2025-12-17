@@ -19,7 +19,7 @@ $team = new WP_Query([
 ?>
 
 <?php if($team->have_posts()) : ?>
-    <?php while($team-have_posts()) : $team->the_post(); 
+    <?php while($team->have_posts()) : $team->the_post(); 
     $role = get_field('role');
     $shortbio = get_field('short_bio');
     $email = get_field('email');
@@ -37,4 +37,33 @@ $team = new WP_Query([
             <?php the_title(); ?>
         </h3>
 <?php if($role) : ?>
-    <p class="team-role"><?php echo esc_html($role); ?></p> <?php endif; ?>        
+    <p class="team-role"><?php echo esc_html($role); ?></p> <?php endif; ?>       
+    
+    <?php if(has_excerpt()) : ?>
+        <p class="team-bio">
+            <?php the_excerpt(); ?>
+        </p>      
+        <?php elseif($shortbio) : ?>
+            <p class="team-bio">
+                <?php echo (esc_html($shortbio)); ?>
+            </p>
+        <?php endif; ?>
+
+        <?php if($email || $linkedin ) : ?>
+            <p class="team-links">
+                <?php if($email) : ?>
+                    <a href="mailto:<?php echo antispambot(esc_html($email)); ?>" class="team-email">Email</a> <?php endif; ?>
+                <?php if($linkedin) : ?>
+                    <a href="<?php echo esc_url($linkedin); ?>" class="team-linkedin" target="_blank" rel="noopener">LinkedIn</a> <?php endif; ?>
+            </p
+        <?php endif; ?>
+    </div>
+</li>
+    <?php endwhile; ?>
+                </ul>
+                <?php else : ?>
+                    <p>No team members found.</p>
+                <?php endif; ?>
+</main>
+<?php
+get_footer(); ?>
